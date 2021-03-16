@@ -134,7 +134,7 @@ def addSchedule(sheet, id_module_class) -> None:
 
 ###################################################################################################
 
-file = r"d:\xampp\htdocs\utc-student-app-excel-reader\data\data.xls"
+file = r"data\data.xls"
 workbook = xlrd.open_workbook(file)
 
 for sheet in workbook._sheet_list:
@@ -227,6 +227,6 @@ response_json = (
 
 print(response_json)
 
-f = open(r"d:\xampp\htdocs\utc-student-app-excel-reader\response_json.json", "w")
-f.write(response_json)
-f.close()
+# f = open(r"d:\xampp\htdocs\utc-student-app-excel-reader\response_json.json", "w")
+# f.write(response_json)
+# f.close()
