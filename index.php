@@ -37,14 +37,17 @@
 <body>
   <?php
 
+  $output = null;
+
   try {
-    $command = escapeshellcmd("python main.py");
+    $command = escapeshellcmd("python .\main.py");
+    $output = shell_exec($command);
     // echo $command;
   } catch (Exception $e) {
     echo $e;
   }
 
-  $output = shell_exec($command);
+  echo "output: " . $output . '\n';
 
   $json = json_decode($output, true);
 
