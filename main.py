@@ -227,6 +227,6 @@ response_json = (
 
 print(response_json)
 
-f = open(r"d:\xampp\htdocs\utc-student-app-excel-reader\response_json.json", "w")
-f.write(response_json)
-f.close()
+# f = open(r"d:\xampp\htdocs\utc-student-app-excel-reader\response_json.json", "w")
+# f.write(response_json)
+# f.close()
