@@ -38,7 +38,7 @@
   <?php
 
   try {
-    $command = escapeshellcmd("d:\\anaconda3\\python.exe d:\\xampp\\htdocs\\utc-student-app-excel-reader\\main.py");
+    $command = escapeshellcmd("python main.py");
     // echo $command;
   } catch (Exception $e) {
     echo $e;
