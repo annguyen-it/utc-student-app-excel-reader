@@ -1,0 +1,15 @@
+{
+    "name": "dell/utc-student-app-excel-reader",
+    "description": "Excel reader for UTC Student App",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "An Nguyen",
+            "email": "annguyen.it.utc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    }
+}

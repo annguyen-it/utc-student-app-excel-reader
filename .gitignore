@@ -1,3 +1,5 @@
 /.vscode
 /workspace.code-workspace
 /__pycache__
+
+/vendor/
